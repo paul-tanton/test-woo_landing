@@ -1,0 +1,81 @@
+/**nav-bar**/
+
+.navbar-nav{
+	text-align: center
+}
+
+/**hero**/
+
+.hero{
+	background-image: url("./source/bg_gradient.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	padding-bottom: 0px;
+}
+
+.btn-default{
+	background-color: #7854F7;
+	color:#FFF;
+	border-color: #7854F7;
+	border-radius: 25px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background-color: #7854F7;
+	color:#FFF;
+	border-color: #7854F7;
+}
+
+.div-btn{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 0;
+}
+
+.text-align-center{
+
+padding-top: 15px;
+}
+
+.hero-text{
+	font-size: 3.5em;
+}
+
+.small-text{
+	font-size: 0.8em;
+	color: grey;
+}
+
+img{
+	max-width: 85%;
+    max-height: 85%;
+    display: block;
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+	    .row
+    {
+        flex-direction: column;
+    }
+
+}
+
+/**feature-section**/
+
+.feature{
+	text-align: center
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+	    .row
+    {
+        flex-direction: column;
+    }
+
+}
+
+/**testimonial-section**/
